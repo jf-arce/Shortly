@@ -1,0 +1,90 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    .header__container{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .header__nav{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .header__iconContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    color: hsl(257, 27%, 26%);
+                    font-weight: 700;
+                    font-size: 1.4em;
+                }
+            }
+            .nav__list{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                font-size: 0.9em;
+                margin-left: 50px; 
+            }
+        }
+        .list__item{
+            padding-right: 30px;
+            a{
+                color: $color-font1;
+            }
+        }
+        .header__nav--login{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .nav__list--login{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                .list__item--login,.list__item--singUp{
+                    padding: 0 25px;
+                }
+            }
+        }
+    }
+}
+
+
+.underline{
+    display: inline-block;
+    position: relative;
+}
+.underline::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: $color-primary;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+.underline:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
