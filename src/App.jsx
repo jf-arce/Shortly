@@ -1,6 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
-import {Shrtcode} from "./components/Shrtcode"
+import {Shrtcode} from "./components/ShrtcodeApi/Shrtcode"
 
 
 function App() {
