@@ -1,0 +1,47 @@
+.statisticCard{
+    background-color: $color-font2;
+    border-radius: 5px; 
+    position: relative;
+    .statistic__icon{
+        position: relative;
+        bottom: 35px;
+        left: 20px;
+        width: 70px;
+        height: 70px;
+        background-color:  hsl(260, 8%, 14%);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .statistic__text{
+        position: relative;
+        bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        h3{
+            color: hsl(260, 8%, 14%);
+            font-size: 1.2em;
+        }
+        p{
+            color: $color-font1;
+            font-size: 0.9em;
+            margin-top: 20px;
+            line-height: 25px;
+        }
+    }
+}
+
+.bind{
+    position: absolute;
+    top: 65%;
+    background-color: $color-secondary;
+    width: 75%;
+    height: 10px;
+}

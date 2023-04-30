@@ -1,0 +1,34 @@
+.sectionStatistics{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 91%);
+    position: relative;
+    .sectionStatistics__container{
+        width: 75%;
+        .sectionStatistics__text-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 22px;
+            .text__title{
+                color: $color-primary;
+                text-align: center;
+                font-size: 2em;
+            }
+            .text__subtitle{
+                color: $color-font1;
+                width: 50%;
+                text-align: center;
+                line-height: 25px;
+            }
+        }
+        .sectionStatistics__statistics{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 40px;
+            
+        }
+    }
+}
