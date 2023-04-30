@@ -1,0 +1,13 @@
+.SocialNetworks{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+   
+    img{
+        color: aqua;
+        &:hover{
+            color: $color-secondary;
+        }
+    }
+   
+}

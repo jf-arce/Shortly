@@ -1,0 +1,19 @@
+.boost{
+    background-image: url(/assets/images/bg-boost-desktop.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;    
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    row-gap: 30px;
+    margin-top: 100px;
+    h2{
+        font-size: 2rem;
+    }
+}

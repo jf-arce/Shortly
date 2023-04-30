@@ -1,0 +1,15 @@
+.nav__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: $color-font2;
+    li{
+        margin-top: 20px;
+    }
+    a{
+        color: $color-font1;
+        &:hover{
+            color: $color-secondary;
+        }
+    }
+}
